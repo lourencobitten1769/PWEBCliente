@@ -7,12 +7,16 @@
     color: #92d36e;
 }
 
-a:link {color:#92d36e;}
-a:visited {color:#92d36e;}
-a:hover {color:#92d36e;}
+#cabecalho a:link {color:#92d36e;}
+#cabecalho a:visited {color:#92d36e;}
+#cabecalho a:hover {color:#92d36e;}
 
 #cabecalho form{
     margin-left: 150px;
+}
+
+#rodape{
+    background-color: black;
 }
 
 #text-rodape{
