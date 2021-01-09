@@ -1,3 +1,8 @@
+/*#body{
+    background-color: white;
+}
+*/
+
 #cabecalho{
     background-color: black;
 
@@ -21,4 +26,10 @@
 
 #text-rodape{
     color:#92d36e;
+}
+
+.card{
+    width:200px;
+    margin-top: 5%;
+    margin-left: 20%;    
 }
