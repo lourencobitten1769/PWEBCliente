@@ -3,41 +3,266 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desenvolvedores</title>
+    <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </head>
 <body>
-
-<nav id="cabecalho" class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <a class="navbar-brand" href="home.html"><img src="imagens/Logo.png"></a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="home.html">Top</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="favoritos.html">Favoritos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="desenvolvedores.html">Desenvolvedores</a>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Procurar</button>
-            </form>
+ 
+  <div id="cabecalho">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand" href="#"><img src="imagens/Logo.png"></a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Top</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Favoritos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Desenvolvedores</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Procurar</button>
+                </form>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+  </div>
 
-<object id="footer" name="footer" data="rodape.html"></object>
+  <div class="container my-4">
+      <div class="row">
+          <div class="col-md-3">
+              <div class="card card-intro text-white mt-5">
+                  <div class="card-body">
+                      <h2 class=" font-weight-bold">
+                          10 <br/>
+                          Músicas<br/>
+                      </h2>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-9">
+              <div class="card-list">
+                  <div class="card card-item">
+                      <div class="card-header">
+                          Article <span class="text-muted">Oct 1, 2020</span>
+                      </div>
+                      <img src="https://picsum.photos/id/11/640/360.webp" alt="Photo" class="card-img-top">
+                      <div class="card-body d-flex flex-column justify-content-between">
+                          <h2>Lorem ipsum dolor sit amet</h2>
+                          <div class="card-author">
+                              <a href="#" class="author-avatar">
+                                  <img src="tedirghazali.jpeg" alt="Tedir Ghazali">
+                              </a>
+                               <svg class="half-circle" viewBox="0 0 106 57">
+                                   <path d="M102 4c0 27.1-29.9 49-49 4954 31.1 4 4"></path>
+                               </svg>
+                               <div class="author-name">
+                                   <div class="author-name-prefix">Administrator</div>
+                                   Tedir Ghazali
+                               </div>
+                               <div class="tags">
+                                   <a href="#">bootstrap-5</a>
+                                   <a href="#">vanilla.js</a>
+                               </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card card-item">
+                    <div class="card-header">
+                        Article <span class="text-muted">Oct 1, 2020</span>
+                    </div>
+                    <img src="https://picsum.photos/id/11/640/360.webp" alt="Photo" class="card-img-top">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <div class="card-author">
+                            <a href="#" class="author-avatar">
+                                <img src="tedirghazali.jpeg" alt="Tedir Ghazali">
+                            </a>
+                             <svg class="half-circle" viewBox="0 0 106 57">
+                                 <path d="M102 4c0 27.1-29.9 49-49 4954 31.1 4 4"></path>
+                             </svg>
+                             <div class="author-name">
+                                 <div class="author-name-prefix">Administrator</div>
+                                 Tedir Ghazali
+                             </div>
+                             <div class="tags">
+                                 <a href="#">bootstrap-5</a>
+                                 <a href="#">vanilla.js</a>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-item">
+                    <div class="card-header">
+                        Article <span class="text-muted">Oct 1, 2020</span>
+                    </div>
+                    <img src="https://picsum.photos/id/11/640/360.webp" alt="Photo" class="card-img-top">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <div class="card-author">
+                            <a href="#" class="author-avatar">
+                                <img src="tedirghazali.jpeg" alt="Tedir Ghazali">
+                            </a>
+                             <svg class="half-circle" viewBox="0 0 106 57">
+                                 <path d="M102 4c0 27.1-29.9 49-49 4954 31.1 4 4"></path>
+                             </svg>
+                             <div class="author-name">
+                                 <div class="author-name-prefix">Administrator</div>
+                                 Tedir Ghazali
+                             </div>
+                             <div class="tags">
+                                 <a href="#">bootstrap-5</a>
+                                 <a href="#">vanilla.js</a>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-item">
+                    <div class="card-header">
+                        Article <span class="text-muted">Oct 1, 2020</span>
+                    </div>
+                    <img src="https://picsum.photos/id/11/640/360.webp" alt="Photo" class="card-img-top">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <div class="card-author">
+                            <a href="#" class="author-avatar">
+                                <img src="tedirghazali.jpeg" alt="Tedir Ghazali">
+                            </a>
+                             <svg class="half-circle" viewBox="0 0 106 57">
+                                 <path d="M102 4c0 27.1-29.9 49-49 4954 31.1 4 4"></path>
+                             </svg>
+                             <div class="author-name">
+                                 <div class="author-name-prefix">Administrator</div>
+                                 Tedir Ghazali
+                             </div>
+                             <div class="tags">
+                                 <a href="#">bootstrap-5</a>
+                                 <a href="#">vanilla.js</a>
+                             </div>
+                        </div>
+                    </div>
+                </div><div class="card card-item">
+                    <div class="card-header">
+                        Article <span class="text-muted">Oct 1, 2020</span>
+                    </div>
+                    <img src="https://picsum.photos/id/11/640/360.webp" alt="Photo" class="card-img-top">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <div class="card-author">
+                            <a href="#" class="author-avatar">
+                                <img src="tedirghazali.jpeg" alt="Tedir Ghazali">
+                            </a>
+                             <svg class="half-circle" viewBox="0 0 106 57">
+                                 <path d="M102 4c0 27.1-29.9 49-49 4954 31.1 4 4"></path>
+                             </svg>
+                             <div class="author-name">
+                                 <div class="author-name-prefix">Administrator</div>
+                                 Tedir Ghazali
+                             </div>
+                             <div class="tags">
+                                 <a href="#">bootstrap-5</a>
+                                 <a href="#">vanilla.js</a>
+                             </div>
+                        </div>
+                    </div>
+                </div><div class="card card-item">
+                    <div class="card-header">
+                        Article <span class="text-muted">Oct 1, 2020</span>
+                    </div>
+                    <img src="https://picsum.photos/id/11/640/360.webp" alt="Photo" class="card-img-top">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <div class="card-author">
+                            <a href="#" class="author-avatar">
+                                <img src="tedirghazali.jpeg" alt="Tedir Ghazali">
+                            </a>
+                             <svg class="half-circle" viewBox="0 0 106 57">
+                                 <path d="M102 4c0 27.1-29.9 49-49 4954 31.1 4 4"></path>
+                             </svg>
+                             <div class="author-name">
+                                 <div class="author-name-prefix">Administrator</div>
+                                 Tedir Ghazali
+                             </div>
+                             <div class="tags">
+                                 <a href="#">bootstrap-5</a>
+                                 <a href="#">vanilla.js</a>
+                             </div>
+                        </div>
+                    </div>
+                </div><div class="card card-item">
+                    <div class="card-header">
+                        Article <span class="text-muted">Oct 1, 2020</span>
+                    </div>
+                    <img src="https://picsum.photos/id/11/640/360.webp" alt="Photo" class="card-img-top">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <div class="card-author">
+                            <a href="#" class="author-avatar">
+                                <img src="tedirghazali.jpeg" alt="Tedir Ghazali">
+                            </a>
+                             <svg class="half-circle" viewBox="0 0 106 57">
+                                 <path d="M102 4c0 27.1-29.9 49-49 4954 31.1 4 4"></path>
+                             </svg>
+                             <div class="author-name">
+                                 <div class="author-name-prefix">Administrator</div>
+                                 Tedir Ghazali
+                             </div>
+                             <div class="tags">
+                                 <a href="#">bootstrap-5</a>
+                                 <a href="#">vanilla.js</a>
+                             </div>
+                        </div>
+                    </div>
+                </div><div class="card card-item">
+                    <div class="card-header">
+                        Article <span class="text-muted">Oct 1, 2020</span>
+                    </div>
+                    <img src="https://picsum.photos/id/11/640/360.webp" alt="Photo" class="card-img-top">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <div class="card-author">
+                            <a href="#" class="author-avatar">
+                                <img src="tedirghazali.jpeg" alt="Tedir Ghazali">
+                            </a>
+                             <svg class="half-circle" viewBox="0 0 106 57">
+                                 <path d="M102 4c0 27.1-29.9 49-49 4954 31.1 4 4"></path>
+                             </svg>
+                             <div class="author-name">
+                                 <div class="author-name-prefix">Administrator</div>
+                                 Tedir Ghazali
+                             </div>
+                             <div class="tags">
+                                 <a href="#">bootstrap-5</a>
+                                 <a href="#">vanilla.js</a>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div id="rodape">
+    <footer class="text-center text-lg-start">
+
+        <div class="text-center p-3">
+          <p id="text-rodape">Curso Técnico Superior Profissional de Programação de Sistemas de Informação</p>
+        </div>
+
+    </footer>
+  </div>
 
 
 </body>
