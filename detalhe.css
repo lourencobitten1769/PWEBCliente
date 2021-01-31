@@ -1,0 +1,39 @@
+ #corpo img{
+    height: 200px;
+    width: 200px;
+    margin-left: 200px;
+    margin-top:200px;
+}
+
+#cabecalho{
+    background-color: black;
+
+}
+#cabecalho li{
+    margin-left: 200px;
+    color: #92d36e;
+}
+
+#cabecalho a:link {color:#92d36e;}
+#cabecalho a:visited {color:#92d36e;}
+#cabecalho a:hover {color:#92d36e;}
+
+#cabecalho form{
+    margin-left: 150px;
+}
+
+#rodape{
+    background-color: black;
+
+}
+ object{
+     position: absolute;
+     bottom: 0px;
+     height: 100px;
+     width: 100%;
+ }
+
+ #text-rodape{
+     color:#92d36e;
+ }
+

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
     <script src="script.js"></script>
 </head>
 <body>
@@ -23,7 +24,7 @@
                 <a class="navbar-brand" onclick="trocar(1)" href="home.html"><img src="imagens/Logo.png"></a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" onclick="trocar(2)" href="top.html">Top</a>
+                        <a class="nav-link active" aria-current="page" onclick="trocar(2)" href="top.html?selValue=musicas">Top</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" onclick="trocar(3)" href="favoritos.html">Favoritos</a>
@@ -32,13 +33,21 @@
                         <a class="nav-link" onclick="trocar(4)" href="desenvolvedores.html">Desenvolvedores</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+                <form class="d-flex" id="form" action="home.html" name="form">
+                    <input class="form-control me-2" id="pesquisa" name="pesquisa" type="search" placeholder="Procurar" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Procurar</button>
                 </form>
             </div>
         </div>
     </nav>
+</div>
+
+<div class="radio">
+    <input class="radio__input" type="radio" value="musicas" name="myRadio" id="musicas">
+    <label class="radio__label" for="musicas">Top Músicas em Portugal</label>
+    <input class="radio__input" type="radio" value="artistas" name="myRadio" id="artistas">
+    <label class="radio__label" for="artistas">Top Artistas em Portugal</label>
+
 </div>
 
 <section class="card-list">
@@ -47,15 +56,7 @@
 </section>
 
 
-<div id="rodape">
-    <footer class="text-center text-lg-start">
-
-        <div class="text-center p-3">
-            <p id="text-rodape">Curso Técnico Superior Profissional de Programação de Sistemas de Informação</p>
-        </div>
-
-    </footer>
-</div>
+<object id="footer" name="footer" data="rodape.html"></object>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

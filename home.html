@@ -23,7 +23,7 @@
                 <a class="navbar-brand" onclick="trocar(1)" href="home.html"><img src="imagens/Logo.png"></a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" onclick="trocar(2)" href="top.html">Top de Portugal</a>
+                        <a class="nav-link active" aria-current="page" onclick="trocar(2)" href="top.html?selValue=musicas">Top de Portugal</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" onclick="trocar(3)" href="favoritos.html">Favoritos</a>
@@ -32,9 +32,9 @@
                         <a class="nav-link" onclick="trocar(4)" href="desenvolvedores.html">Desenvolvedores</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Procurar</button>
+                <form class="d-flex" id="form" name="form" action="home.html">
+                    <input class="form-control me-2" id="pesquisa" name="pesquisa" type="search" placeholder="Procurar" aria-label="Search">
+                    <button class="btn btn-outline-success" onclick="pesquisar()" type="submit">Procurar</button>
                 </form>
             </div>
         </div>
