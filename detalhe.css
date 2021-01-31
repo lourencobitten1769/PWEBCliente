@@ -1,10 +1,3 @@
- #corpo img{
-    height: 200px;
-    width: 200px;
-    margin-left: 200px;
-    margin-top:200px;
-}
-
 #cabecalho{
     background-color: black;
 
@@ -36,4 +29,33 @@
  #text-rodape{
      color:#92d36e;
  }
+
+
+#container{
+    margin-top:100px;
+    margin-left:100px; ;
+}
+
+.time{
+    margin-top: 3%;
+    width: 100px;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.artist{
+    margin-top: 3%;
+    width: 150px;
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.music{
+    width: 250px;
+    color:black;
+    font-size: 34px;
+    font-weight: bold;
+}
 
